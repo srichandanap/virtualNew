@@ -1,0 +1,56 @@
+.nav {
+    background: #092963;
+    padding: 1.2rem;
+}
+.navMargin{
+    margin: 0rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navImage{
+width: 175.45px;
+height: 34.04px;
+}
+.searchImage{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.searchBar{
+    width: 500px;
+height: 44px;
+background: #123779;
+border-radius: 57px;
+border: 0;
+outline: 0;
+padding-left: 3rem;
+}
+
+.searchs {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+}
+
+.searchBar::placeholder{
+    font-family: 'ProximaNovaSoftW03-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(255, 255, 255, 0.3); 
+}
+
+.profile {
+    border-radius: 66%;
+    width: 38.8px;
+    height: 37.8px;
+}
+
+.navRight {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
